@@ -3,8 +3,8 @@
 This is the README file for the PC Attachment Review Platform project.
 
 ## Team Members
-- Ethan Ikhifa: ethan@example.com, [GitHub Profile](https://github.com/ethanikhifa)
-- Michael Castellano: michael@example.com, [GitHub Profile](https://github.com/michaelcastellano)
+- Ethan Ikhifa: ethanikhifa.com, [GitHub Profile](https://github.com/ethanikhifa)
+- Michael Castellano: mikejcasta@gmail.com, [GitHub Profile](https://github.com/michaelcastellano)
 
 ## Project Proposal Summary
 The PC Attachment Review Platform is a web application that allows users to post and read reviews about various PC attachments such as keyboards, mice, monitors, and more. The purpose of the platform is to provide a centralized hub for PC enthusiasts and users to share their experiences, provide feedback, and help others make informed decisions when purchasing PC attachments.
