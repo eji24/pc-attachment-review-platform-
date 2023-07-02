@@ -1,0 +1,40 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts and compiled code
+dist/
+build/
+.idea/
+*.exe
+*.dll
+
+# Ignore editor and IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore log files
+*.log
+
+# Ignore dependency lock files
+yarn.lock
+package-lock.json
+
+# Ignore credentials and sensitive information
+credentials.json
+
+# Ignore compiled assets
+*.min.js
+*.min.css
+
+# Ignore temporary and cache files
+.cache/
+.tmp/
+
+# Ignore testing and debugging files
+coverage/
+.nyc_output/
