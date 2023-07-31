@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+    <style>
+        body {
+            background-color: #ADD8E6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .back-home-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #ADD8E6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-home-btn:hover {
+            background-color: #6FB0D4;
+        }
+        .profile-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            margin-top: 50px;
+        }
+        .profile-info, .recent-review {
+            width: 45%;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        .profile-image img {
+            width: 100%;
+            height: auto;
+        }
+        .change-password {
+            display: none;
+        }
+        .recent-review {
+            border-left: 1px solid #ddd;
+            padding-left: 20px;
+        }
+        .profile-info-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Home button -->
+    <button class="back-home-btn">Home</button>
+
+    <div class="profile-container">
+        <!-- User Information Section -->
+        <div class="profile-info">
+            <h2>User Profile</h2>
+            <div class="profile-image">
+                <img src="profile-placeholder.png" alt="Profile Picture">
+            </div>
+            <label for="profile-picture">Change Profile Picture:</label><br>
+            <input type="file" id="profile-picture" name="profile-picture"><br><br>
+            <p><strong>Username:</strong> <span id="username">User123</span></p>
+            <p><strong>Reviews Completed:</strong> <span id="reviews-count">10</span></p>
+            <button id="change-password-btn" type="button">Change Password</button>
+            <div class="change-password">
+                <label for="old-password">Old Password:</label><br>
+                <input type="password" id="old-password" name="old-password"><br><br>
+                <label for="new-password">New Password:</label><br>
+                <input type="password" id="new-password" name="new-password"><br><br>
+                <button id="save-password-btn" type="submit">Save New Password</button>
+            </div>
+        </div>
+
+        <!-- Recent Review Section -->
+        <div class="recent-review">
+            <h2>Most Recent Review</h2>
+            <!-- Recent review placeholder, will be populated with React -->
+            <p><strong>Review Title:</strong> <span id="review-title">Excellent Product</span></p>
+            <p><strong>Review Text:</strong> <span id="review-text">I loved this product! It's worth every penny.</span></p>
+            <p><strong>Rating:</strong> <span id="review-rating">5/5</span></p>
+        </div>
+    </div>
+</body>
+</html>
