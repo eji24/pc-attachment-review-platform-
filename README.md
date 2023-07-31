@@ -17,7 +17,7 @@ The PC Attachment Review Platform is a web application that allows users to post
 
 ## Functionality
 The PC Attachment Review Platform will have the following key features:
-- User Registration: Users can create new accounts by providing their email and password.
+- User Registration: Users can create new accounts by providing a username and password.
 - User Login: Registered users can log in to their accounts using their credentials.
 - Profile Management: Users can view and edit their profiles, update their information, and manage their reviews.
 - Review Submission: Users can submit reviews for different PC attachments, including ratings, descriptions, and additional details.
