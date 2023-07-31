@@ -12,7 +12,7 @@ The PC Attachment Review Platform is a web application that allows users to post
 ## Project Status
 We are in the development phase of the project right now. The frontend has been largely developed while the backend has yet to be implemented. 
 
-##Challenges Faced
+## Challenges Faced
 - Coordinating while having different schedules
 - Ensuring we both have the same style and format
 - Choosing the right color scheme
