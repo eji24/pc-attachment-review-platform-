@@ -1,0 +1,71 @@
+/* Add your custom CSS styles here to format the LandingPage component */
+/* For example: */
+
+.landing-page {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .start-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .about-section,
+  .features-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-section h2,
+  .features-section h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .features-section ul {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .features-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .features-section li {
+    margin-bottom: 5px;
+  }
+  
+  /* Add the missing semicolon here */
+  .features-section {
+    margin: 30px; /* Add the semicolon at the end */
+  }
+  
+  footer {
+    font-size: 14px;
+    color: #777;
+  }
+  
