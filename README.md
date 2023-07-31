@@ -9,6 +9,23 @@ This is the README file for the PC Attachment Review Platform project.
 ## Project Proposal Summary
 The PC Attachment Review Platform is a web application that allows users to post and read reviews about various PC attachments such as keyboards, mice, monitors, and more. The purpose of the platform is to provide a centralized hub for PC enthusiasts and users to share their experiences, provide feedback, and help others make informed decisions when purchasing PC attachments.
 
+## Project Status
+We are in the development phase of the project right now. The frontend has been largely developed while the backend has yet to be implemented. 
+
+##Challenges Faced
+- Coordinating while having different schedules
+- Ensuring we both have the same style and format
+- Choosing the right color scheme
+- Maintaining consistency
+- Visualising and developing frontend while having no connected backend
+
+
+
+
+
+
+
+
 ## Project Requirements
 - Design a user-friendly and intuitive web interface using React, ensuring a smooth user experience.
 - Implement a login system to allow users to create profiles, log in, and manage their reviews.
@@ -72,6 +89,16 @@ npm start
 
 ## Additional Notes
 - The project is subject to revision and improvement as we progress through the course and gain more knowledge about React and NodeJS.
+
+
+## Screenshots
+  ### Screenshot 1: Landing Page
+  The landing page has a welcoming banner that introduces visitors to "The PC Attachment Review Platform". A brief description under "About Us" highlights the platform's purpose and key features. Navigation options at the bottom include "Home", "Login", "Register", "Profile", "Reviews", and "Search". The page concludes with a footer with copyright info.
+  
+  ### Screenshot 2:
+  These are two screenshots that show both the login and registration forms as well as a sneak peek into the user profile and review functionalities. In the upper area, users are provided with forms to enter their username and password for either logging in or registering a new account. Upon successful login, users can navigate to their profile. In the lower section, a review board displays examples of user reviews, each containing a rating and a comment, along with the name of the user who posted it. Finally, there's a 'Submit Review' form at the bottom, where users can rate a product and provide their own comments about features, etc.
+
+
 
 Feel free to modify this template as per your project requirements and provide more detailed information specific to your project.
 
