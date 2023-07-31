@@ -1,0 +1,93 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: lightblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Adjust review styles */
+
+.ReviewList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ReviewItem {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.ReviewItem p {
+  font-size: 14px; /* Adjust font size for review content */
+  margin: 5px 0; /* Add spacing between review paragraphs */
+}
+
+.ReviewItem .user {
+  font-size: 12px; /* Adjust font size for user information */
+  color: #888;
+  margin-top: 5px; /* Add spacing between user information and review content */
+}
+
+/* Add spacing between different components */
+
+.Login,
+.Register,
+.Profile {
+  margin-bottom: 20px;
+}
+
+.SearchBar {
+  margin-bottom: 10px;
+}
+
+.Footer {
+  margin-top: 20px;
+}
+
