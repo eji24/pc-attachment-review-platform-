@@ -1,55 +1,49 @@
 # PC Attachment Review Platform
 
-Welcome to the README file for the updated PC Attachment Review Platform project.
+## Overview
+The PC Attachment Review Platform is a web application that enables users to post and read reviews about various PC attachments such as keyboards, mice, monitors, and more.
 
 ## Team Members
-
-- Ethan Ikhifa: ethanikhifa.com, [GitHub Profile](https://github.com/ethanikhifa)
-- Michael Castellano: mikejcasta@gmail.com, [GitHub Profile](https://github.com/michaelcastellano)
+- **Ethan Ikhifa**: [ethanikhifa.com](http://ethanikhifa.com), [GitHub Profile](https://github.com/eji24)
+- **Michael Castellano**: [mikejcasta@gmail.com](mailto:mikejcasta@gmail.com), [GitHub Profile](https://github.com/mikejcasta)
 
 ## Project Proposal Summary
+The platform aims to provide a centralized hub for PC enthusiasts to share experiences, offer feedback, and assist others in making informed decisions when purchasing PC attachments.
 
-The PC Attachment Review Platform is a web application that allows users to post and read reviews about various PC attachments such as keyboards, mice, monitors, and more. The purpose of the platform is to provide a centralized hub for PC enthusiasts and users to share their experiences, provide feedback, and help others make informed decisions when purchasing PC attachments.
+## Phase 1: Initial Design & Setup
+### Analysis
+- The project was set up with the aim to develop a frontend using React and a backend with NodeJS.
+- A user-friendly design was envisioned to provide a smooth user experience.
+- Initial challenges included coordinating between team members, ensuring design consistency, and working without a connected backend.
 
-## Project Status
+### Implementation
+- Created basic components like the landing page, login, and registration forms.
+- Incorporated a design with clear navigation options for user interaction.
+- Envisioned features like user registration, login, profile management, review submission, and display were planned.
 
-While we encountered several obstacles during the development process, we managed to adjust our initial goals and expectations to fit our current skillset and timeframe. Consequently, the final product, while different from our initial vision, still serves its purpose effectively. Currently, user data and reviews are stored on the frontend, providing a solid foundation for future integration with a backend database.
+## Phase 2: Development & Challenges
+### Analysis
+- Focus was on further development of the frontend while backend integration was considered.
+- There was a realization that certain goals might not be achieved within the set timeframe due to the complexities involved, especially integrating a MongoDB database.
 
-## Challenges Faced
+### Implementation
+- Due to difficulties with MongoDB, user registration data and review data storage were moved to the frontend.
+- GIT collaboration became challenging due to ever-changing codebases. Alternatives like Microsoft Teams were also explored but found to be inefficient.
+- React Router challenges arose because of older versions in package.json. A decision was made to build the on-click landing page on the frontend instead of navigating using routes.
 
-- Implementation of MongoDB database for user registration data and user review data.
-- Working collaboratively and synchronizing codebases via GIT repository or Microsoft Teams.
-- Creating an on-click landing page with React Router.
+## Final Product Implementation
+### Analysis
+- Aimed to consolidate the work from the two phases and offer a presentable and functional product.
+- While not all initial goals were met, adaptability became a significant asset as the project progressed. The project was modified based on the team's skillset and available time.
 
-## Project Achievements
-
-- Developed a functional login system where users are directed to the review page upon logging in.
-- Created a visually pleasing and intuitive user interface with a retro, clean, and concise design.
-- Enabled the Home button to redirect users to the review page after login.
-- Integrated a search bar on the screen and in the navigation bar.
-
-## Functionality
-
-The PC Attachment Review Platform has the following key features:
-
-- User Registration: Users can create new accounts by providing a username and password.
-- User Login: Registered users can log in to their accounts using their credentials.
-- Profile Management: Users can view and edit their profiles, update their information, and manage their reviews.
-- Review Submission: Users can submit reviews for different PC attachments, including ratings, descriptions, and additional details.
-- Review Display: Users can browse and read reviews posted by other users.
-- Search and Filter: Users can search for specific PC attachments or apply filters to narrow down their search results.
-
-## Development Plan
-
-- Week 1: Project setup, environment configuration, and initial React application setup.
-- Week 2-3: Front-end development, including UI design, component creation, and user authentication implementation.
-- Week 4-5: Front-end development of review system, including review submission and display.
-- Week 6: Integration and testing, and bug fixes.
-- Week 7: Finalize the project, documentation, and preparation for submission.
+### Implementation
+- A functional login system was developed, leading users directly to the review section.
+- Dummy reviews were set in place to simulate user interactions.
+- An old-school, retro style was chosen for the frontend, keeping the design clean and appealing with blue-on-blue tones.
+- Navigation was improved, with a home button directing to the review page post-login and a search bar for potential future enhancements.
 
 ## Repository Structure
-
-- /src: Contains all the frontend code.
+- `/src`: Contains the entire codebase for the project. This is where all the React components, services, and assets are stored.
 
 ## Getting Started
 
@@ -62,6 +56,9 @@ To run the PC Attachment Review Platform on your local machine, follow these ste
 5. Start the server: `npm start`
 6. Open your web browser and access the application at http://localhost:3000.
 
-## Additional Notes
 
-The project has been simplified due to the difficulties faced during development. The current implementation provides a minimal viable product and is open for further enhancement in future.
+
+## Conclusion
+
+Despite facing several challenges throughout the development process, we managed to adapt and produce a functional product with our available skills and resources. Though we couldn't implement all our initial features, we learned to pivot and adjust our objectives based on the situation. We are proud of the final product we've delivered and believe it serves as a testament to our dedication, adaptability, and collaborative effort. This project presented numerous opportunities for growth, both as developers and collaborators. The knowledge and experience gained from this project will undeniably assist us in future endeavors.
+
